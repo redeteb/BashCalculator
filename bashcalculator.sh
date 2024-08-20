@@ -1,8 +1,12 @@
 #!/bin/bash
 
+#Take in two numbers and math symbol
+#Perform operation
+#Make sure correct error messages are in place 
+
 echo "Welcome to Bash Calculator!"
 
-# Function to perform and display the calculation
+#Perform and display the calculation
 perform_calculation() {
     case $operation in
         '+')
